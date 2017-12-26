@@ -6,39 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/sean/Desktop/ex4/src/client/src/AIPlayer.cpp
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/AIPlayer.cpp
 limits
 -
 AIPlayer.h
-/home/sean/Desktop/ex4/src/client/src/AIPlayer.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/AIPlayer.h
 
-/home/sean/Desktop/ex4/src/client/src/AIPlayer.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/AIPlayer.h
 Player.h
-/home/sean/Desktop/ex4/src/client/src/Player.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Player.h
 algorithm
 -
 
-/home/sean/Desktop/ex4/src/client/src/Board.cpp
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Board.cpp
 stdexcept
 -
 Board.h
-/home/sean/Desktop/ex4/src/client/src/Board.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Board.h
 
-/home/sean/Desktop/ex4/src/client/src/Board.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Board.h
 BoardCell.h
-/home/sean/Desktop/ex4/src/client/src/BoardCell.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/BoardCell.h
 iostream
 -
 vector
 -
 SquareColorEnum.h
-/home/sean/Desktop/ex4/src/client/src/SquareColorEnum.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/SquareColorEnum.h
 
-/home/sean/Desktop/ex4/src/client/src/BoardCell.cpp
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/BoardCell.cpp
 BoardCell.h
-/home/sean/Desktop/ex4/src/client/src/BoardCell.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/BoardCell.h
 
-/home/sean/Desktop/ex4/src/client/src/BoardCell.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/BoardCell.h
 string
 -
 iostream
@@ -46,101 +46,101 @@ iostream
 sstream
 -
 
-/home/sean/Desktop/ex4/src/client/src/ConsoleBoard.cpp
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/ConsoleBoard.cpp
 ConsoleBoard.h
-/home/sean/Desktop/ex4/src/client/src/ConsoleBoard.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/ConsoleBoard.h
 
-/home/sean/Desktop/ex4/src/client/src/ConsoleBoard.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/ConsoleBoard.h
 Board.h
-/home/sean/Desktop/ex4/src/client/src/Board.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Board.h
 string.h
 -
 
-/home/sean/Desktop/ex4/src/client/src/Game.cpp
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Game.cpp
 Game.h
-/home/sean/Desktop/ex4/src/client/src/Game.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Game.h
 
-/home/sean/Desktop/ex4/src/client/src/Game.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Game.h
 GameLogic.h
-/home/sean/Desktop/ex4/src/client/src/GameLogic.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/GameLogic.h
 HumanPlayer.h
-/home/sean/Desktop/ex4/src/client/src/HumanPlayer.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/HumanPlayer.h
 AIPlayer.h
-/home/sean/Desktop/ex4/src/client/src/AIPlayer.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/AIPlayer.h
 ConsoleBoard.h
-/home/sean/Desktop/ex4/src/client/src/ConsoleBoard.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/ConsoleBoard.h
 StandardLogic.h
-/home/sean/Desktop/ex4/src/client/src/StandardLogic.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/StandardLogic.h
 limits
 -
 
-/home/sean/Desktop/ex4/src/client/src/GameLogic.cpp
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/GameLogic.cpp
 GameLogic.h
-/home/sean/Desktop/ex4/src/client/src/GameLogic.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/GameLogic.h
 
-/home/sean/Desktop/ex4/src/client/src/GameLogic.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/GameLogic.h
 BoardCell.h
-/home/sean/Desktop/ex4/src/client/src/BoardCell.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/BoardCell.h
 vector
 -
 SquareColorEnum.h
-/home/sean/Desktop/ex4/src/client/src/SquareColorEnum.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/SquareColorEnum.h
 Board.h
-/home/sean/Desktop/ex4/src/client/src/Board.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Board.h
 
-/home/sean/Desktop/ex4/src/client/src/HumanPlayer.cpp
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/HumanPlayer.cpp
 HumanPlayer.h
-/home/sean/Desktop/ex4/src/client/src/HumanPlayer.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/HumanPlayer.h
 
-/home/sean/Desktop/ex4/src/client/src/HumanPlayer.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/HumanPlayer.h
 Player.h
-/home/sean/Desktop/ex4/src/client/src/Player.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Player.h
 algorithm
 -
 limits
 -
 
-/home/sean/Desktop/ex4/src/client/src/Player.cpp
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Player.cpp
 Player.h
-/home/sean/Desktop/ex4/src/client/src/Player.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Player.h
 
-/home/sean/Desktop/ex4/src/client/src/Player.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Player.h
 SquareColorEnum.h
-/home/sean/Desktop/ex4/src/client/src/SquareColorEnum.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/SquareColorEnum.h
 BoardCell.h
-/home/sean/Desktop/ex4/src/client/src/BoardCell.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/BoardCell.h
 GameLogic.h
-/home/sean/Desktop/ex4/src/client/src/GameLogic.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/GameLogic.h
 stdexcept
 -
 vector
 -
 
-/home/sean/Desktop/ex4/src/client/src/ReadFile.cpp
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/ReadFile.cpp
 ReadFile.h
-/home/sean/Desktop/ex4/src/client/src/ReadFile.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/ReadFile.h
 stdio.h
-/home/sean/Desktop/ex4/src/client/src/stdio.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/stdio.h
 iostream
 -
 fstream
 -
 
-/home/sean/Desktop/ex4/src/client/src/ReadFile.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/ReadFile.h
 string.h
 -
 iostream
 -
 
-/home/sean/Desktop/ex4/src/client/src/RemoteGame.cpp
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/RemoteGame.cpp
 RemoteGame.h
-/home/sean/Desktop/ex4/src/client/src/RemoteGame.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/RemoteGame.h
 
-/home/sean/Desktop/ex4/src/client/src/RemoteGame.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/RemoteGame.h
 Game.h
-/home/sean/Desktop/ex4/src/client/src/Game.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Game.h
 RemotePlayer.h
-/home/sean/Desktop/ex4/src/client/src/RemotePlayer.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/RemotePlayer.h
 sys/socket.h
 -
 netinet/in.h
@@ -152,13 +152,13 @@ netdb.h
 unistd.h
 -
 
-/home/sean/Desktop/ex4/src/client/src/RemotePlayer.cpp
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/RemotePlayer.cpp
 RemotePlayer.h
-/home/sean/Desktop/ex4/src/client/src/RemotePlayer.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/RemotePlayer.h
 
-/home/sean/Desktop/ex4/src/client/src/RemotePlayer.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/RemotePlayer.h
 Player.h
-/home/sean/Desktop/ex4/src/client/src/Player.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Player.h
 sys/socket.h
 -
 netinet/in.h
@@ -170,27 +170,27 @@ netdb.h
 unistd.h
 -
 
-/home/sean/Desktop/ex4/src/client/src/SquareColorEnum.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/SquareColorEnum.h
 stdexcept
 -
 string.h
 -
 
-/home/sean/Desktop/ex4/src/client/src/StandardLogic.cpp
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/StandardLogic.cpp
 StandardLogic.h
-/home/sean/Desktop/ex4/src/client/src/StandardLogic.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/StandardLogic.h
 
-/home/sean/Desktop/ex4/src/client/src/StandardLogic.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/StandardLogic.h
 GameLogic.h
-/home/sean/Desktop/ex4/src/client/src/GameLogic.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/GameLogic.h
 stdexcept
 -
 
-/home/sean/Desktop/ex4/src/client/src/main.cpp
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/main.cpp
 Game.h
-/home/sean/Desktop/ex4/src/client/src/Game.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/Game.h
 RemoteGame.h
-/home/sean/Desktop/ex4/src/client/src/RemoteGame.h
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/RemoteGame.h
 ReadFile.cpp
-/home/sean/Desktop/ex4/src/client/src/ReadFile.cpp
+/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/src/ReadFile.cpp
 

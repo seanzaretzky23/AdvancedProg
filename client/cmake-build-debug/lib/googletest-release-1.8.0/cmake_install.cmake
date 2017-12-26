@@ -1,4 +1,4 @@
-# Install script for directory: /home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0
+# Install script for directory: /home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/lib/googletest-release-1.8.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/cmake_install.cmake")
+  include("/home/yanivzi/CLionProjects/GitHubAdvancedProg/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/cmake_install.cmake")
 
 endif()
 

@@ -43,10 +43,10 @@ RM = /opt/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sean/Desktop/ex4/src/client
+CMAKE_SOURCE_DIR = /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sean/Desktop/ex4/src/client/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/depend.make
@@ -59,16 +59,16 @@ include lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/flags.make
 
 lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o: lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/flags.make
 lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o: ../lib/googletest-release-1.8.0/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o"
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/src/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o"
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/src/gtest-all.cc
 
 lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i"
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/src/gtest-all.cc > CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/src/gtest-all.cc > CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i
 
 lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s"
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/src/gtest-all.cc -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/src/gtest-all.cc -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s
 
 lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o.requires:
 
@@ -83,16 +83,16 @@ lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/g
 
 lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/flags.make
 lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: ../lib/googletest-release-1.8.0/googlemock/src/gmock-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/src/gmock-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/src/gmock-all.cc
 
 lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
 
 lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
 
 lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.requires:
 
@@ -117,9 +117,9 @@ lib/googletest-release-1.8.0/googlemock/libgmock.a: lib/googletest-release-1.8.0
 lib/googletest-release-1.8.0/googlemock/libgmock.a: lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
 lib/googletest-release-1.8.0/googlemock/libgmock.a: lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/build.make
 lib/googletest-release-1.8.0/googlemock/libgmock.a: lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libgmock.a"
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libgmock.a"
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/build: lib/googletest-release-1.8.0/googlemock/libgmock.a
@@ -132,10 +132,10 @@ lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/requires: lib/googl
 .PHONY : lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/requires
 
 lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/clean:
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
 .PHONY : lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/clean
 
 lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/depend:
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sean/Desktop/ex4/src/client /home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock /home/sean/Desktop/ex4/src/client/cmake-build-debug /home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock /home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock.dir/depend
 

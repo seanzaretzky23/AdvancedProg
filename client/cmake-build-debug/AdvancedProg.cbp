@@ -8,75 +8,75 @@
 		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\googletest-release-1.8.0\;CMake Files\lib\googletest-release-1.8.0\googlemock\;CMake Files\lib\googletest-release-1.8.0\googletest\;CMake Files\lib\googletest-release-1.8.0\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="game">
-				<Option output="/home/sean/Desktop/ex4/src/client/cmake-build-debug/game" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug"/>
+				<Option output="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sean/Desktop/ex4/src/client/$g"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/$g"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/include"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -87,22 +87,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 game"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 game"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="game/fast">
-				<Option output="/home/sean/Desktop/ex4/src/client/cmake-build-debug/game" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug"/>
+				<Option output="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sean/Desktop/ex4/src/client/$g"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/$g"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/include"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -113,32 +113,32 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 game/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 game/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tests">
-				<Option output="/home/sean/Desktop/ex4/src/client/cmake-build-debug/tests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug"/>
+				<Option output="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sean/Desktop/ex4/src/client/$g"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/$g"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/include"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -149,22 +149,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tests/fast">
-				<Option output="/home/sean/Desktop/ex4/src/client/cmake-build-debug/tests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug"/>
+				<Option output="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sean/Desktop/ex4/src/client/$g"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/$g"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/include"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -175,24 +175,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
-				<Option output="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock"/>
+				<Option output="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sean/Desktop/ex4/src/client/$g"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/$g"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -203,24 +203,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
-				<Option output="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock"/>
+				<Option output="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sean/Desktop/ex4/src/client/$g"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/$g"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -231,24 +231,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock">
-				<Option output="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock"/>
+				<Option output="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sean/Desktop/ex4/src/client/$g"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/$g"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -259,24 +259,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
-				<Option output="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock"/>
+				<Option output="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sean/Desktop/ex4/src/client/$g"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/$g"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -287,22 +287,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest"/>
+				<Option output="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sean/Desktop/ex4/src/client/$g"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/$g"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -313,22 +313,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest"/>
+				<Option output="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sean/Desktop/ex4/src/client/$g"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/$g"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -339,22 +339,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest"/>
+				<Option output="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sean/Desktop/ex4/src/client/$g"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/$g"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -365,22 +365,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest"/>
+				<Option output="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sean/Desktop/ex4/src/client/$g"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/include"/>
-					<Add directory="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/$g"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -391,189 +391,189 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/src/gmock-all.cc">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/src/gmock-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/src/gmock_main.cc">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/src/gmock_main.cc">
 			<Option target="gmock_main"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/src/gtest-all.cc">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/src/gtest-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/src/gtest_main.cc">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/AIPlayer.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/AIPlayer.cpp">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/AIPlayer.h">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/AIPlayer.h">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/Board.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Board.cpp">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/Board.h">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Board.h">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/BoardCell.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/BoardCell.cpp">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/BoardCell.h">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/BoardCell.h">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/ConsoleBoard.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/ConsoleBoard.cpp">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/ConsoleBoard.h">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/ConsoleBoard.h">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/Game.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Game.cpp">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/Game.h">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Game.h">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/GameLogic.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/GameLogic.cpp">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/GameLogic.h">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/GameLogic.h">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/HumanPlayer.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/HumanPlayer.cpp">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/HumanPlayer.h">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/HumanPlayer.h">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/Player.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Player.cpp">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/Player.h">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Player.h">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/ReadFile.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/ReadFile.cpp">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/ReadFile.h">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/ReadFile.h">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/RemoteGame.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/RemoteGame.cpp">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/RemoteGame.h">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/RemoteGame.h">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/RemotePlayer.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/RemotePlayer.cpp">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/RemotePlayer.h">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/RemotePlayer.h">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/SquareColorEnum.h">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/SquareColorEnum.h">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/StandardLogic.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/StandardLogic.cpp">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/StandardLogic.h">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/StandardLogic.h">
 			<Option target="game"/>
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/src/main.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/main.cpp">
 			<Option target="game"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/tests/AIPlayer_Test.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/AIPlayer_Test.cpp">
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/tests/Board-ConsoleBoard_Test.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/Board-ConsoleBoard_Test.cpp">
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/tests/BoardCell_Test.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/BoardCell_Test.cpp">
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/tests/GameLogic-StandadLogic_Test.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/GameLogic-StandadLogic_Test.cpp">
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/tests/Player-HumanPlayer_Test.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/Player-HumanPlayer_Test.cpp">
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/tests/gtest_main.cpp">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/gtest_main.cpp">
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/CMakeLists.txt">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/CMakeLists.txt">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-release-1.8.0\"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/CMakeLists.txt">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-release-1.8.0\"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/CMakeLists.txt">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-release-1.8.0\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/CMakeLists.txt">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-release-1.8.0\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/CMakeLists.txt">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-release-1.8.0\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-release-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-release-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-release-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\googletest-release-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-release-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-release-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-release-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\lib\googletest-release-1.8.0\googletest\cmake\"/>
 		</Unit>
 	</Project>

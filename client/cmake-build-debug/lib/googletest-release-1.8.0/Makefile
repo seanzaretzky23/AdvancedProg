@@ -48,10 +48,10 @@ RM = /opt/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sean/Desktop/ex4/src/client
+CMAKE_SOURCE_DIR = /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sean/Desktop/ex4/src/client/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles /home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/CMakeFiles/progress.marks
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/googletest-release-1.8.0/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles 0
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/CMakeFiles/progress.marks
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/googletest-release-1.8.0/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/googletest-release-1.8.0/clean
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/googletest-release-1.8.0/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/googletest-release-1.8.0/preinstall
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/googletest-release-1.8.0/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/googletest-release-1.8.0/preinstall
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/googletest-release-1.8.0/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -179,6 +179,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

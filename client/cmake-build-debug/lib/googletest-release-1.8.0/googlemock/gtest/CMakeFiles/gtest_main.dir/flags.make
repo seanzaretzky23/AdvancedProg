@@ -6,5 +6,5 @@ CXX_FLAGS =  -lpthread -g    -lpthread -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fex
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/sean/Desktop/ex4/src/client/\$$g" -I/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/include -I/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest 
+CXX_INCLUDES = -I"/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/\$$g" -I/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/include -I/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest 
 

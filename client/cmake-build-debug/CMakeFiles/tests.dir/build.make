@@ -43,10 +43,10 @@ RM = /opt/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sean/Desktop/ex4/src/client
+CMAKE_SOURCE_DIR = /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sean/Desktop/ex4/src/client/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tests.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/tests.dir/flags.make
 
 CMakeFiles/tests.dir/src/Board.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/Board.cpp.o: ../src/Board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tests.dir/src/Board.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/Board.cpp.o -c /home/sean/Desktop/ex4/src/client/src/Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tests.dir/src/Board.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/Board.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Board.cpp
 
 CMakeFiles/tests.dir/src/Board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/Board.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/src/Board.cpp > CMakeFiles/tests.dir/src/Board.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Board.cpp > CMakeFiles/tests.dir/src/Board.cpp.i
 
 CMakeFiles/tests.dir/src/Board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/Board.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/src/Board.cpp -o CMakeFiles/tests.dir/src/Board.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Board.cpp -o CMakeFiles/tests.dir/src/Board.cpp.s
 
 CMakeFiles/tests.dir/src/Board.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/tests.dir/src/Board.cpp.o.provides.build: CMakeFiles/tests.dir/src/Bo
 
 CMakeFiles/tests.dir/src/BoardCell.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/BoardCell.cpp.o: ../src/BoardCell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests.dir/src/BoardCell.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/BoardCell.cpp.o -c /home/sean/Desktop/ex4/src/client/src/BoardCell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests.dir/src/BoardCell.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/BoardCell.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/BoardCell.cpp
 
 CMakeFiles/tests.dir/src/BoardCell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/BoardCell.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/src/BoardCell.cpp > CMakeFiles/tests.dir/src/BoardCell.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/BoardCell.cpp > CMakeFiles/tests.dir/src/BoardCell.cpp.i
 
 CMakeFiles/tests.dir/src/BoardCell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/BoardCell.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/src/BoardCell.cpp -o CMakeFiles/tests.dir/src/BoardCell.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/BoardCell.cpp -o CMakeFiles/tests.dir/src/BoardCell.cpp.s
 
 CMakeFiles/tests.dir/src/BoardCell.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/tests.dir/src/BoardCell.cpp.o.provides.build: CMakeFiles/tests.dir/sr
 
 CMakeFiles/tests.dir/src/ConsoleBoard.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/ConsoleBoard.cpp.o: ../src/ConsoleBoard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests.dir/src/ConsoleBoard.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/ConsoleBoard.cpp.o -c /home/sean/Desktop/ex4/src/client/src/ConsoleBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests.dir/src/ConsoleBoard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/ConsoleBoard.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/ConsoleBoard.cpp
 
 CMakeFiles/tests.dir/src/ConsoleBoard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/ConsoleBoard.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/src/ConsoleBoard.cpp > CMakeFiles/tests.dir/src/ConsoleBoard.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/ConsoleBoard.cpp > CMakeFiles/tests.dir/src/ConsoleBoard.cpp.i
 
 CMakeFiles/tests.dir/src/ConsoleBoard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/ConsoleBoard.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/src/ConsoleBoard.cpp -o CMakeFiles/tests.dir/src/ConsoleBoard.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/ConsoleBoard.cpp -o CMakeFiles/tests.dir/src/ConsoleBoard.cpp.s
 
 CMakeFiles/tests.dir/src/ConsoleBoard.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/tests.dir/src/ConsoleBoard.cpp.o.provides.build: CMakeFiles/tests.dir
 
 CMakeFiles/tests.dir/src/Game.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/Game.cpp.o: ../src/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tests.dir/src/Game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/Game.cpp.o -c /home/sean/Desktop/ex4/src/client/src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tests.dir/src/Game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/Game.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Game.cpp
 
 CMakeFiles/tests.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/src/Game.cpp > CMakeFiles/tests.dir/src/Game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Game.cpp > CMakeFiles/tests.dir/src/Game.cpp.i
 
 CMakeFiles/tests.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/src/Game.cpp -o CMakeFiles/tests.dir/src/Game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Game.cpp -o CMakeFiles/tests.dir/src/Game.cpp.s
 
 CMakeFiles/tests.dir/src/Game.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/tests.dir/src/Game.cpp.o.provides.build: CMakeFiles/tests.dir/src/Gam
 
 CMakeFiles/tests.dir/src/Player.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/Player.cpp.o: ../src/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tests.dir/src/Player.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/Player.cpp.o -c /home/sean/Desktop/ex4/src/client/src/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tests.dir/src/Player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/Player.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Player.cpp
 
 CMakeFiles/tests.dir/src/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/src/Player.cpp > CMakeFiles/tests.dir/src/Player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Player.cpp > CMakeFiles/tests.dir/src/Player.cpp.i
 
 CMakeFiles/tests.dir/src/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/src/Player.cpp -o CMakeFiles/tests.dir/src/Player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/Player.cpp -o CMakeFiles/tests.dir/src/Player.cpp.s
 
 CMakeFiles/tests.dir/src/Player.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/tests.dir/src/Player.cpp.o.provides.build: CMakeFiles/tests.dir/src/P
 
 CMakeFiles/tests.dir/src/GameLogic.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/GameLogic.cpp.o: ../src/GameLogic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tests.dir/src/GameLogic.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/GameLogic.cpp.o -c /home/sean/Desktop/ex4/src/client/src/GameLogic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tests.dir/src/GameLogic.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/GameLogic.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/GameLogic.cpp
 
 CMakeFiles/tests.dir/src/GameLogic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/GameLogic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/src/GameLogic.cpp > CMakeFiles/tests.dir/src/GameLogic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/GameLogic.cpp > CMakeFiles/tests.dir/src/GameLogic.cpp.i
 
 CMakeFiles/tests.dir/src/GameLogic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/GameLogic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/src/GameLogic.cpp -o CMakeFiles/tests.dir/src/GameLogic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/GameLogic.cpp -o CMakeFiles/tests.dir/src/GameLogic.cpp.s
 
 CMakeFiles/tests.dir/src/GameLogic.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/tests.dir/src/GameLogic.cpp.o.provides.build: CMakeFiles/tests.dir/sr
 
 CMakeFiles/tests.dir/src/StandardLogic.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/StandardLogic.cpp.o: ../src/StandardLogic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tests.dir/src/StandardLogic.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/StandardLogic.cpp.o -c /home/sean/Desktop/ex4/src/client/src/StandardLogic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tests.dir/src/StandardLogic.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/StandardLogic.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/StandardLogic.cpp
 
 CMakeFiles/tests.dir/src/StandardLogic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/StandardLogic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/src/StandardLogic.cpp > CMakeFiles/tests.dir/src/StandardLogic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/StandardLogic.cpp > CMakeFiles/tests.dir/src/StandardLogic.cpp.i
 
 CMakeFiles/tests.dir/src/StandardLogic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/StandardLogic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/src/StandardLogic.cpp -o CMakeFiles/tests.dir/src/StandardLogic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/StandardLogic.cpp -o CMakeFiles/tests.dir/src/StandardLogic.cpp.s
 
 CMakeFiles/tests.dir/src/StandardLogic.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/tests.dir/src/StandardLogic.cpp.o.provides.build: CMakeFiles/tests.di
 
 CMakeFiles/tests.dir/src/HumanPlayer.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/HumanPlayer.cpp.o: ../src/HumanPlayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tests.dir/src/HumanPlayer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/HumanPlayer.cpp.o -c /home/sean/Desktop/ex4/src/client/src/HumanPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tests.dir/src/HumanPlayer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/HumanPlayer.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/HumanPlayer.cpp
 
 CMakeFiles/tests.dir/src/HumanPlayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/HumanPlayer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/src/HumanPlayer.cpp > CMakeFiles/tests.dir/src/HumanPlayer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/HumanPlayer.cpp > CMakeFiles/tests.dir/src/HumanPlayer.cpp.i
 
 CMakeFiles/tests.dir/src/HumanPlayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/HumanPlayer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/src/HumanPlayer.cpp -o CMakeFiles/tests.dir/src/HumanPlayer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/HumanPlayer.cpp -o CMakeFiles/tests.dir/src/HumanPlayer.cpp.s
 
 CMakeFiles/tests.dir/src/HumanPlayer.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/tests.dir/src/HumanPlayer.cpp.o.provides.build: CMakeFiles/tests.dir/
 
 CMakeFiles/tests.dir/src/AIPlayer.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/AIPlayer.cpp.o: ../src/AIPlayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tests.dir/src/AIPlayer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/AIPlayer.cpp.o -c /home/sean/Desktop/ex4/src/client/src/AIPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tests.dir/src/AIPlayer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/AIPlayer.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/AIPlayer.cpp
 
 CMakeFiles/tests.dir/src/AIPlayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/AIPlayer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/src/AIPlayer.cpp > CMakeFiles/tests.dir/src/AIPlayer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/AIPlayer.cpp > CMakeFiles/tests.dir/src/AIPlayer.cpp.i
 
 CMakeFiles/tests.dir/src/AIPlayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/AIPlayer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/src/AIPlayer.cpp -o CMakeFiles/tests.dir/src/AIPlayer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/AIPlayer.cpp -o CMakeFiles/tests.dir/src/AIPlayer.cpp.s
 
 CMakeFiles/tests.dir/src/AIPlayer.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/tests.dir/src/AIPlayer.cpp.o.provides.build: CMakeFiles/tests.dir/src
 
 CMakeFiles/tests.dir/src/RemotePlayer.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/RemotePlayer.cpp.o: ../src/RemotePlayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tests.dir/src/RemotePlayer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/RemotePlayer.cpp.o -c /home/sean/Desktop/ex4/src/client/src/RemotePlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tests.dir/src/RemotePlayer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/RemotePlayer.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/RemotePlayer.cpp
 
 CMakeFiles/tests.dir/src/RemotePlayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/RemotePlayer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/src/RemotePlayer.cpp > CMakeFiles/tests.dir/src/RemotePlayer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/RemotePlayer.cpp > CMakeFiles/tests.dir/src/RemotePlayer.cpp.i
 
 CMakeFiles/tests.dir/src/RemotePlayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/RemotePlayer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/src/RemotePlayer.cpp -o CMakeFiles/tests.dir/src/RemotePlayer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/RemotePlayer.cpp -o CMakeFiles/tests.dir/src/RemotePlayer.cpp.s
 
 CMakeFiles/tests.dir/src/RemotePlayer.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/tests.dir/src/RemotePlayer.cpp.o.provides.build: CMakeFiles/tests.dir
 
 CMakeFiles/tests.dir/src/RemoteGame.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/RemoteGame.cpp.o: ../src/RemoteGame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tests.dir/src/RemoteGame.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/RemoteGame.cpp.o -c /home/sean/Desktop/ex4/src/client/src/RemoteGame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tests.dir/src/RemoteGame.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/RemoteGame.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/RemoteGame.cpp
 
 CMakeFiles/tests.dir/src/RemoteGame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/RemoteGame.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/src/RemoteGame.cpp > CMakeFiles/tests.dir/src/RemoteGame.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/RemoteGame.cpp > CMakeFiles/tests.dir/src/RemoteGame.cpp.i
 
 CMakeFiles/tests.dir/src/RemoteGame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/RemoteGame.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/src/RemoteGame.cpp -o CMakeFiles/tests.dir/src/RemoteGame.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/RemoteGame.cpp -o CMakeFiles/tests.dir/src/RemoteGame.cpp.s
 
 CMakeFiles/tests.dir/src/RemoteGame.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/tests.dir/src/RemoteGame.cpp.o.provides.build: CMakeFiles/tests.dir/s
 
 CMakeFiles/tests.dir/src/ReadFile.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/ReadFile.cpp.o: ../src/ReadFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tests.dir/src/ReadFile.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/ReadFile.cpp.o -c /home/sean/Desktop/ex4/src/client/src/ReadFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tests.dir/src/ReadFile.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/ReadFile.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/ReadFile.cpp
 
 CMakeFiles/tests.dir/src/ReadFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/ReadFile.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/src/ReadFile.cpp > CMakeFiles/tests.dir/src/ReadFile.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/ReadFile.cpp > CMakeFiles/tests.dir/src/ReadFile.cpp.i
 
 CMakeFiles/tests.dir/src/ReadFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/ReadFile.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/src/ReadFile.cpp -o CMakeFiles/tests.dir/src/ReadFile.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/src/ReadFile.cpp -o CMakeFiles/tests.dir/src/ReadFile.cpp.s
 
 CMakeFiles/tests.dir/src/ReadFile.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/tests.dir/src/ReadFile.cpp.o.provides.build: CMakeFiles/tests.dir/src
 
 CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.o: ../tests/GameLogic-StandadLogic_Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.o -c /home/sean/Desktop/ex4/src/client/tests/GameLogic-StandadLogic_Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/GameLogic-StandadLogic_Test.cpp
 
 CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/tests/GameLogic-StandadLogic_Test.cpp > CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/GameLogic-StandadLogic_Test.cpp > CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.i
 
 CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/tests/GameLogic-StandadLogic_Test.cpp -o CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/GameLogic-StandadLogic_Test.cpp -o CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.s
 
 CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/tests.dir/tests/GameLogic-StandadLogic_Test.cpp.o.provides.build: CMa
 
 CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.o: ../tests/Board-ConsoleBoard_Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.o -c /home/sean/Desktop/ex4/src/client/tests/Board-ConsoleBoard_Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/Board-ConsoleBoard_Test.cpp
 
 CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/tests/Board-ConsoleBoard_Test.cpp > CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/Board-ConsoleBoard_Test.cpp > CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.i
 
 CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/tests/Board-ConsoleBoard_Test.cpp -o CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/Board-ConsoleBoard_Test.cpp -o CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.s
 
 CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/tests.dir/tests/Board-ConsoleBoard_Test.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.o: ../tests/Player-HumanPlayer_Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.o -c /home/sean/Desktop/ex4/src/client/tests/Player-HumanPlayer_Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/Player-HumanPlayer_Test.cpp
 
 CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/tests/Player-HumanPlayer_Test.cpp > CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/Player-HumanPlayer_Test.cpp > CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.i
 
 CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/tests/Player-HumanPlayer_Test.cpp -o CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/Player-HumanPlayer_Test.cpp -o CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.s
 
 CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/tests.dir/tests/Player-HumanPlayer_Test.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.o: ../tests/BoardCell_Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.o -c /home/sean/Desktop/ex4/src/client/tests/BoardCell_Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/BoardCell_Test.cpp
 
 CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/tests/BoardCell_Test.cpp > CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/BoardCell_Test.cpp > CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.i
 
 CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/tests/BoardCell_Test.cpp -o CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/BoardCell_Test.cpp -o CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.s
 
 CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/tests.dir/tests/BoardCell_Test.cpp.o.provides.build: CMakeFiles/tests
 
 CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.o: ../tests/AIPlayer_Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.o -c /home/sean/Desktop/ex4/src/client/tests/AIPlayer_Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/AIPlayer_Test.cpp
 
 CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/tests/AIPlayer_Test.cpp > CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/AIPlayer_Test.cpp > CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.i
 
 CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/tests/AIPlayer_Test.cpp -o CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/AIPlayer_Test.cpp -o CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.s
 
 CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/tests.dir/tests/AIPlayer_Test.cpp.o.provides.build: CMakeFiles/tests.
 
 CMakeFiles/tests.dir/tests/gtest_main.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/gtest_main.cpp.o: ../tests/gtest_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/tests.dir/tests/gtest_main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/gtest_main.cpp.o -c /home/sean/Desktop/ex4/src/client/tests/gtest_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/tests.dir/tests/gtest_main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/gtest_main.cpp.o -c /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/gtest_main.cpp
 
 CMakeFiles/tests.dir/tests/gtest_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/gtest_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/Desktop/ex4/src/client/tests/gtest_main.cpp > CMakeFiles/tests.dir/tests/gtest_main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/gtest_main.cpp > CMakeFiles/tests.dir/tests/gtest_main.cpp.i
 
 CMakeFiles/tests.dir/tests/gtest_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/gtest_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/Desktop/ex4/src/client/tests/gtest_main.cpp -o CMakeFiles/tests.dir/tests/gtest_main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/tests/gtest_main.cpp -o CMakeFiles/tests.dir/tests/gtest_main.cpp.s
 
 CMakeFiles/tests.dir/tests/gtest_main.cpp.o.requires:
 
@@ -536,7 +536,7 @@ tests: lib/googletest-release-1.8.0/googlemock/gtest/libgtest.a
 tests: lib/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a
 tests: lib/googletest-release-1.8.0/googlemock/gtest/libgtest.a
 tests: CMakeFiles/tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -570,6 +570,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/sean/Desktop/ex4/src/client/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sean/Desktop/ex4/src/client /home/sean/Desktop/ex4/src/client /home/sean/Desktop/ex4/src/client/cmake-build-debug /home/sean/Desktop/ex4/src/client/cmake-build-debug /home/sean/Desktop/ex4/src/client/cmake-build-debug/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug /home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googletest/src/gtest-all.cc" "/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o"
-  "/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/src/gmock-all.cc" "/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o"
-  "/home/sean/Desktop/ex4/src/client/lib/googletest-release-1.8.0/googlemock/src/gmock_main.cc" "/home/sean/Desktop/ex4/src/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+  "/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googletest/src/gtest-all.cc" "/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o"
+  "/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/src/gmock-all.cc" "/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o"
+  "/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/lib/googletest-release-1.8.0/googlemock/src/gmock_main.cc" "/home/sean/CLionProjects/AdvancedProgGitHUb/AdvancedProg/client/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,5 +1,0 @@
-target: compileAll
-	g++ -o ../../exe/client.out *.o
-	rm -f *.o
-compileAll: src/*.h src/*.cpp
-	g++ -c src/*.cpp

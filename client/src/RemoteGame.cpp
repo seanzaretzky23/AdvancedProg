@@ -20,6 +20,21 @@ RemoteGame::RemoteGame(const char *serverIP, int serverPort, int boardSize):
         cout << "Error accured during creating server in RemoteGame. Reason: " << msg << endl;
         exit(-1);
     }
+
+    //for testing !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    char buffer[200] = "list_games";
+    int numberOfBytesTransferred;
+    numberOfBytesTransferred = write(this->clientSocket, buffer, strlen(buffer));
+    if (numberOfBytesTransferred == -1)
+        cout << "dddidddnntttt ddeelliivveerrr" << endl;
+    numberOfBytesTransferred = read(this->clientSocket, buffer, 20);
+    if (numberOfBytesTransferred == -1 || numberOfBytesTransferred == 0) {
+        cout << "dddidddnntttt reeeeaaaddddd" << endl;
+    } else {
+        cout << buffer << endl;
+    }
+    //for testing !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
     //receiving what is the order of players (human player and remote player) from the server and creating the players
     try {
     this->createPlayersBasedOnServer();

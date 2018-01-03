@@ -21,7 +21,7 @@ using namespace std;
 class Board {
 
 public:
-    /**************************************************************
+    /***********************************************************
     * function name: Board class builder
     * Input: int length, int width
     * @return Board object

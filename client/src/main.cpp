@@ -3,12 +3,11 @@
 * Course Exercise Group: 03, 05
 *****************************************************************/
 
-
-
 #include "Game.h"
 #include "RemoteGame.h"
 #include "ReadFile.cpp"
 #define CONFIG_FILE "configFileClient.txt"
+
 /**************************************************************
  * function name: main
  * Input: no input
@@ -17,8 +16,15 @@
  **************************************************************/
 int main()
 {
-    string strIp = ReadIP(CONFIG_FILE);
-    string strPort = ReadPort(CONFIG_FILE);
+    string strIp;
+    string strPort;
+    try {
+        strIp = ReadIP(CONFIG_FILE);
+        strPort = ReadPort(CONFIG_FILE);
+    } catch (const char * exc) {
+        cout << "error in main: " << exc << endl;
+        exit (-1);
+    }
     //converting port to int
     int port;
     stringstream convert(strPort);

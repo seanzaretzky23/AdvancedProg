@@ -97,4 +97,4 @@ private:
     bool joinGameCommandReceiver();
 };
 
-#endif
+#endif //ADVANCEDPROG_REMOTEGAME_H

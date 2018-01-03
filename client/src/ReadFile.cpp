@@ -20,6 +20,9 @@ std::string ReadData(string fileName,string dataName) {
         kind=2;
     string outputData;
     inFile.open(fileName.c_str());
+    if (!inFile.is_open()) {
+        throw ("file \"" + fileName + "\" doesnt exist").c_str();
+    }
     inFile>>buffer;
     //if the file not containing the data name return empty string ""
     while((strcmp(buffer.c_str(),dataName.c_str())!=0)&&(!inFile.eof()))

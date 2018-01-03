@@ -159,4 +159,4 @@ protected:
     vector<vector<SquareColor > > gameBoard;
 };
 
-#endif
+#endif /* BOARD_H_ */

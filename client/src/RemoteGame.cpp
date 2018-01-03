@@ -4,6 +4,7 @@
 *****************************************************************/
 #include "RemoteGame.h"
 #define BUFFER_SIZE 4096
+#define INVALID_CHOICE_FROM_CLIENT (-1)
 
 RemoteGame::RemoteGame(const char *serverIP, int serverPort, int boardSize):
         serverIP(serverIP), serverPort(serverPort), clientSocket(0), whichPlayerIsHuman(-1){
@@ -13,41 +14,206 @@ RemoteGame::RemoteGame(const char *serverIP, int serverPort, int boardSize):
     //calling for ConsoleBoard with the default parameters
     this->board = new ConsoleBoard(boardSize, boardSize);
     this->gameLogic = new StandardLogic(this->board);
-    //creating socket for communication with the server
-    try {
-        this->createConnectionToServer();
-    } catch (const char *msg) {
-        cout << "Error accured during creating server in RemoteGame. Reason: " << msg << endl;
-        exit(-1);
-    }
 
+    /*
     //for testing !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    char buffer[200] = "list_games";
     int numberOfBytesTransferred;
-    numberOfBytesTransferred = write(this->clientSocket, buffer, strlen(buffer));
+
+    char buffer1[200] = "start <newGame>";
+    numberOfBytesTransferred = write(this->clientSocket, buffer1, strlen(buffer1) + 1);
+    if (numberOfBytesTransferred == -1)
+        cout << "dddidddnntttt ddeelliivveerrr111111" << endl;
+
+    numberOfBytesTransferred = read(this->clientSocket, buffer1, 20);
+    if (numberOfBytesTransferred == -1 || numberOfBytesTransferred == 0) {
+        cout << "dddidddnntttt reeeeaaaddddd" << endl;
+    } else {
+        cout << buffer1 << endl;
+    }
+    this->createConnectionToServer();
+    char buffer[200] = "list_games";
+    numberOfBytesTransferred = write(this->clientSocket, buffer, strlen(buffer) + 1);
     if (numberOfBytesTransferred == -1)
         cout << "dddidddnntttt ddeelliivveerrr" << endl;
+
     numberOfBytesTransferred = read(this->clientSocket, buffer, 20);
     if (numberOfBytesTransferred == -1 || numberOfBytesTransferred == 0) {
         cout << "dddidddnntttt reeeeaaaddddd" << endl;
     } else {
         cout << buffer << endl;
     }
+
+    this->createConnectionToServer();
+    char buffer2[200] = "start <newGame2>";
+    numberOfBytesTransferred = write(this->clientSocket, buffer2, strlen(buffer2) + 1);
+    if (numberOfBytesTransferred == -1)
+        cout << "dddidddnntttt ddeelliivveerrr222222" << endl;
+
+    numberOfBytesTransferred = read(this->clientSocket, buffer, 20);
+    if (numberOfBytesTransferred == -1 || numberOfBytesTransferred == 0) {
+        cout << "dddidddnntttt reeeeaaaddddd" << endl;
+    } else {
+        cout << buffer << endl;
+    }
+
+    this->createConnectionToServer();
+    char buffer3[200] = "list_games";
+    numberOfBytesTransferred = write(this->clientSocket, buffer3, strlen(buffer3) + 1);
+    if (numberOfBytesTransferred == -1)
+        cout << "dddidddnntttt ddeelliivveerrr" << endl;
+
+    numberOfBytesTransferred = read(this->clientSocket, buffer3, 100);
+    if (numberOfBytesTransferred == -1 || numberOfBytesTransferred == 0) {
+        cout << "dddidddnntttt reeeeaaaddddd" << endl;
+    } else {
+        cout << buffer3 << endl;
+    }
     //for testing !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    */
+    try {
+        this->gamePrep();
+    } catch(const char * msg) {
+        cout << msg << endl;
+        exit(-1);
+    }
+}
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+void RemoteGame::gamePrep() {
+    int key;
+    int numberOfBytesTransferred = 0;
+    char buffer[BUFFER_SIZE];
+    string commandToServer = "";
+    string gameName;
+    bool flagStartOrJoin = false;
+    while (!flagStartOrJoin) {
+        //creating communication with the server
+        try {
+            this->createConnectionToServer();
+        } catch (const char *msg) {
+            cout << "Error accured during connecting to server in RemoteGame. Reason: " << msg << endl;
+            exit(-1);
+        }
+        //message
+        cout << "Please choose an option:" << endl;
+        cout << "1. start a game" << endl;
+        cout << "2. print list of games open to join" << endl;
+        cout << "3. join a game with a waiting player" << endl;
+
+        cin >> key;
+        if (cin.fail())
+            key = INVALID_CHOICE_FROM_CLIENT;
+        memset(buffer, '\0', BUFFER_SIZE);
+        switch (key) {
+            case 1: {
+                flagStartOrJoin = this->startGameCommandReceiver();
+                if(!flagStartOrJoin) {
+                    cout << "invalid game name to start, this game already exists\n" << endl;
+                }
+                break;
+            }
+            case 2: {
+                strcpy(buffer, "list_games");
+                //write command to server
+                numberOfBytesTransferred = write(this->clientSocket, buffer, strlen(buffer) + 1);
+                if (numberOfBytesTransferred == -1) {
+                    throw "Error writing message to server (list of games command option) in RemoteGame";
+                }
+                //read server answer
+                numberOfBytesTransferred = read(this->clientSocket, buffer, sizeof(buffer));
+                if (numberOfBytesTransferred == -1 || numberOfBytesTransferred == 0) {
+                    throw "Error reading message from server (receiving the games list) in RemoteGame";
+                }
+                cout  << buffer << endl << endl; // edit the buffer representing the list of games!!!!!!!
+                break;
+            }
+            case 3: {
+                flagStartOrJoin = this->joinGameCommandReceiver();
+                if(!flagStartOrJoin) {
+                    cout << "invalid game name to join, this game doesnt exist\n" << endl;
+                }
+                break;
+            }
+            default: {
+                cout << "invalid choise!" << endl;
+            }
+        }
+        //clearing input error flag and ignoring bad input
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize >::max(), '\n');
+    }
 
     //receiving what is the order of players (human player and remote player) from the server and creating the players
     try {
-    this->createPlayersBasedOnServer();
+        this->createPlayersBasedOnServer();
     } catch (const char *msg) {
         cout << "Error accured during reading from server in RemoteGame. Reason: " << msg << endl;
         exit(-1);
     }
 }
 
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+bool RemoteGame::startGameCommandReceiver() {
+    int numberOfBytesTransferred = 0;
+    char buffer[BUFFER_SIZE];
+    string commandToServer = "";
+    string gameName;
+    bool validName = false;
+
+    cout << "Please name the game you want to start, game name needs to be one word"
+            "(only the first will be taken) and one that doesn't already exist" << endl;
+    cin >> gameName;
+    commandToServer = "start " + gameName;
+    strcpy(buffer, commandToServer.c_str());
+    //write command to server
+    numberOfBytesTransferred = write(this->clientSocket, buffer, strlen(buffer) + 1);
+    if (numberOfBytesTransferred == -1) {
+        throw "Error writing message to server (chosen command option) in RemoteGame";
+    }
+    numberOfBytesTransferred = read(this->clientSocket, buffer, sizeof(buffer));
+    if (numberOfBytesTransferred == -1 || numberOfBytesTransferred == 0) {
+        throw "Error reading confirmation of command execution from server in RemoteGame";
+    }
+    if(strcmp(buffer, "-1") != 0) {
+        validName = true;
+    }
+    return validName;
+}
+
+bool RemoteGame::joinGameCommandReceiver() {
+    int numberOfBytesTransferred = 0;
+    char buffer[BUFFER_SIZE];
+    string commandToServer = "";
+    string gameName;
+    bool validName = false;
+
+    cout << "Please name the game you want to join to, game name needs to be one word"
+            "(only the first will be taken) and one that is already open" << endl;
+    cin >> gameName;
+    commandToServer = "join " + gameName;
+    strcpy(buffer, commandToServer.c_str());
+    //write command to server
+    numberOfBytesTransferred = write(this->clientSocket, buffer, strlen(buffer) + 1);
+    if (numberOfBytesTransferred == -1) {
+        throw "Error writing message to server (chosen command option) in RemoteGame";
+    }
+    numberOfBytesTransferred = read(this->clientSocket, buffer, sizeof(buffer));
+    if (numberOfBytesTransferred == -1 || numberOfBytesTransferred == 0) {
+        throw "Error reading confirmation of command execution from server in RemoteGame";
+    }
+    if(strcmp(buffer, "-1") != 0) {
+        validName = true;
+    }
+    return validName;
+}
+
+
 void RemoteGame::createPlayersBasedOnServer() {
     char buffer[BUFFER_SIZE];
     int numberOfBytesTransferred;
-
+    cout << "waiting for other player to join\n" << endl;
     numberOfBytesTransferred = read(this->clientSocket, buffer, sizeof(buffer));
     if (numberOfBytesTransferred == -1) {
         throw "Error reading order of players from server in RemoteGame";
@@ -60,7 +226,7 @@ void RemoteGame::createPlayersBasedOnServer() {
     stringstream convert(receivedStr);
     if (!(convert >> numberReceivedFromServer) || (numberReceivedFromServer != 1 && numberReceivedFromServer != 2)) {
         //invalid opening message from the server
-        throw "invalid opening message from the server in RemoteGame";
+        throw "invalid opening message from the server in RemoteGame, possible reason: server connection expired";
     } else {
         this->whichPlayerIsHuman = numberReceivedFromServer - 1;
         switch(this->whichPlayerIsHuman) {
@@ -104,7 +270,6 @@ void RemoteGame::createConnectionToServer() {
     if (connect(this->clientSocket, (struct sockaddr *)&serverAddress, sizeof(serverAddress)) == -1) {
         throw "Error connecting to server in RemoteGame";
     }
-    cout << "waiting for other player to join\n" << endl;
 }
 
 RemoteGame::~RemoteGame() {
@@ -210,10 +375,10 @@ void RemoteGame::playNextTurn(int i) {
             }
         }
     } catch (char const *msg) {
-        cout << "EERRRROORRRR:   " << msg << endl;
+        cout << msg << " Reason for error: server connection expired" <<  endl;
         exit(-1);
     } catch(...) {
-        cout << "not caaaaaaaattttccccchhhhhhh" << endl;
+        cout << "error accured In RemoteGame" << endl;
     }
 }
 

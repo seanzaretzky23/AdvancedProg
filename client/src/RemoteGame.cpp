@@ -15,61 +15,6 @@ RemoteGame::RemoteGame(const char *serverIP, int serverPort, int boardSize):
     this->board = new ConsoleBoard(boardSize, boardSize);
     this->gameLogic = new StandardLogic(this->board);
 
-    /*
-    //for testing !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    int numberOfBytesTransferred;
-
-    char buffer1[200] = "start <newGame>";
-    numberOfBytesTransferred = write(this->clientSocket, buffer1, strlen(buffer1) + 1);
-    if (numberOfBytesTransferred == -1)
-        cout << "dddidddnntttt ddeelliivveerrr111111" << endl;
-
-    numberOfBytesTransferred = read(this->clientSocket, buffer1, 20);
-    if (numberOfBytesTransferred == -1 || numberOfBytesTransferred == 0) {
-        cout << "dddidddnntttt reeeeaaaddddd" << endl;
-    } else {
-        cout << buffer1 << endl;
-    }
-    this->createConnectionToServer();
-    char buffer[200] = "list_games";
-    numberOfBytesTransferred = write(this->clientSocket, buffer, strlen(buffer) + 1);
-    if (numberOfBytesTransferred == -1)
-        cout << "dddidddnntttt ddeelliivveerrr" << endl;
-
-    numberOfBytesTransferred = read(this->clientSocket, buffer, 20);
-    if (numberOfBytesTransferred == -1 || numberOfBytesTransferred == 0) {
-        cout << "dddidddnntttt reeeeaaaddddd" << endl;
-    } else {
-        cout << buffer << endl;
-    }
-
-    this->createConnectionToServer();
-    char buffer2[200] = "start <newGame2>";
-    numberOfBytesTransferred = write(this->clientSocket, buffer2, strlen(buffer2) + 1);
-    if (numberOfBytesTransferred == -1)
-        cout << "dddidddnntttt ddeelliivveerrr222222" << endl;
-
-    numberOfBytesTransferred = read(this->clientSocket, buffer, 20);
-    if (numberOfBytesTransferred == -1 || numberOfBytesTransferred == 0) {
-        cout << "dddidddnntttt reeeeaaaddddd" << endl;
-    } else {
-        cout << buffer << endl;
-    }
-
-    this->createConnectionToServer();
-    char buffer3[200] = "list_games";
-    numberOfBytesTransferred = write(this->clientSocket, buffer3, strlen(buffer3) + 1);
-    if (numberOfBytesTransferred == -1)
-        cout << "dddidddnntttt ddeelliivveerrr" << endl;
-
-    numberOfBytesTransferred = read(this->clientSocket, buffer3, 100);
-    if (numberOfBytesTransferred == -1 || numberOfBytesTransferred == 0) {
-        cout << "dddidddnntttt reeeeaaaddddd" << endl;
-    } else {
-        cout << buffer3 << endl;
-    }
-    //for testing !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    */
     try {
         this->gamePrep();
     } catch(const char * msg) {
@@ -78,7 +23,6 @@ RemoteGame::RemoteGame(const char *serverIP, int serverPort, int boardSize):
     }
 }
 
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 void RemoteGame::gamePrep() {
     int key;
@@ -153,7 +97,6 @@ void RemoteGame::gamePrep() {
     }
 }
 
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 bool RemoteGame::startGameCommandReceiver() {
     int numberOfBytesTransferred = 0;
